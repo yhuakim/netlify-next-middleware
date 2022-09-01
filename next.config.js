@@ -4,4 +4,8 @@ const nextConfig = {
   swcMinify: true,
 }
 
+module.exports = {
+  pageExtensions: ['mdx', 'md', 'jsx', 'js', 'tsx', 'ts'],
+}
+
 module.exports = nextConfig
